@@ -1,0 +1,28 @@
+
+/* .main {
+    margin: 5px;
+    
+} */
+.navbar {
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar__parrafo {
+    padding-top: 120px;
+}
+.main__box {
+    display: flex;
+}
+.box {
+    /* border: 2px solid #808080; */
+    width: 25%;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+.box img {
+    height: 100px;
+}

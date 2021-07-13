@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <!-- INICIO DE ESTILO -->
+    <style media="screen" type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        .banderas {
+            margin: 10px;
+            display: inline-block;
+            border: 1px solid rgb(212, 204, 204);
+        }
+        .bandera {
+            width: 400px;
+            height: 200px;
+            position: relative;                        
+        }
+        /* BANDERA ESPAÑA */
+        .bandera__espana {
+            height: 55px;
+            background-color: #FF2D00;
+            /* z-index: -1; */
+        }
+        .bandera__centro-espana {
+            height: 90px;
+            background-color: #FFC300;
+        }
+
+        /* BANDERA DINAMARCA */
+        .bandera__dinamarca {
+            height: 90px;
+            background-color: #ff2d00;
+            
+        }
+        .bandera__centro-v-dinamarca {
+            height: 20px;
+            background-color: #ffffff;
+        }
+        .bandera__centro-h-dinamarca {
+            width: 20px;
+            height: 200px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+
+        /* BANDERA EMIRATOS ÁRABES */
+        .bandera__emiratos {
+            width: 80px;
+            height: 200px;
+            display: inline-block;
+            background-color: #FF2D00;
+            top: 0px;
+            left: 0px;
+        }
+        .bandera__centro-verde {
+            width: 320px;
+            height: 66px;
+            display: inline-block;
+            position: absolute;
+            background-color: green;
+            top: 0px;
+            left: 80px;
+        }
+        .bandera__centro-blanco {
+            width: 320px;
+            height: 67px;
+            display: inline-block;
+            position: absolute;
+            background-color: #ffffff;
+            top: 66px;
+            left: 80px;
+        }
+        .bandera__centro-negro {
+            width: 320px;
+            height: 67px;
+            display: inline-block;
+            position: absolute;
+            background-color: #000000;
+            top: 133px;
+            left: 80px;
+        }
+
+        /* BANDERA JAPÓN */
+        .bandera__japon {
+            background-color: #ffffff;
+        }
+        .bandera__centro-japon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            background-color: #FF2D00;
+            top: 60px;
+            left: 150px;
+        }
+    </style>
+    <!-- FIN DE ESTILOS -->
+
+</head>
+<body>
+    <!-- BANDERA ESPAÑA -->
+    <div class="banderas">
+        <div class="bandera">
+            <div class="bandera bandera__espana">
+            </div>
+            <div class="bandera bandera__centro-espana">
+            </div>
+            <div class="bandera bandera__espana">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- BANDERA DINAMARCA -->
+    <div class="banderas">
+        <div class="bandera">
+            <div class="bandera bandera__dinamarca"></div>
+            <div class="bandera bandera__centro-v-dinamarca"></div>
+            <div class="bandera bandera__dinamarca"></div>
+            <div class="bandera bandera__centro-h-dinamarca"></div>
+        </div>
+
+    </div>
+
+    <!-- BANDERA EMIRATOS ÁRABES -->
+    <div class="banderas">
+        <div class="bandera">
+            <div class="bandera bandera__emiratos"></div>
+            <div class="bandera bandera__centro-verde"></div>
+            <div class="bandera bandera__centro-blanco"></div>
+            <div class="bandera bandera__centro-negro"></div>
+        </div>
+    </div>
+
+    <!-- BANDERA JAPÓN -->
+    <div class="banderas">
+        <div class="bandera">
+            <div class="bandera bandera__japon"></div>
+            <div class="bandera bandera__centro-japon"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
